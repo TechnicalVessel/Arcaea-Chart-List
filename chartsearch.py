@@ -80,6 +80,7 @@ class ArcaeaChartFilter:
             ]
         return self
     
+    
     def song_contains(self, search_term: str):
         self.filteredcharts = self.filteredcharts[
             self.filteredcharts['Song'].str.contains(search_term, case=False, na=False)
@@ -171,4 +172,19 @@ class ArcaeaChartFilter:
         
         if self.count() > max_rows:
             print(f"\n... and {self.count() - max_rows} more results")
-
+    
+    def Score(self, song, difficulty, score=0, exact=True):
+        if isinstance(song, str):
+            song = [song]
+        
+        if exact:
+            self.temp = self.ogcharts[self.ogcharts['Song'].isin(song)]
+        else:
+            pattern = '|'.join(song)
+            self.temp = self.ogcharts[
+                self.ogcharts['Song'].str.contains(pattern, case=False, na=False)
+            ]
+        if isinstance(difficulty, str):
+            difficulty=[difficulty]
+        self.temp=self.temp[self.temp['Difficulty'].isin(difficulty)]
+        notecount=self.temp['Notes']
