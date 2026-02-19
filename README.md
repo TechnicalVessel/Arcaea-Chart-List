@@ -2,7 +2,7 @@
 I will try my best to keep the list updated as updates come and chart constants are verified.
 
 # Future(heh) plans:
-[ ] Add Basic Searching Program with pandas
+[x] Add Basic Searching Program with pandas
 
 [ ] Scoring Predictions (figure out your score based on miss, far, etc.)
 
@@ -10,7 +10,7 @@ I will try my best to keep the list updated as updates come and chart constants 
 
 [ ] Import scores (manual b50 or specific charts)
 
-[ ] Local list of charts (like arcade-songs.zetaraku.dev)
+[x] Local list of charts (like arcade-songs.zetaraku.dev)
 
 [ ] actual website?
 
