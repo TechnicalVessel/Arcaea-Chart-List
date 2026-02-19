@@ -1,5 +1,6 @@
 import pandas as pd
 from typing import List, Optional, Union 
+from random import randint
 class ArcaeaChartFilter:
     def __init__(self, csvpath):
         self.ogcharts=pd.read_csv(csvpath)
@@ -170,11 +171,3 @@ class ArcaeaChartFilter:
         
         if self.count() > max_rows:
             print(f"\n... and {self.count() - max_rows} more results")
-
-cf=ArcaeaChartFilter("arcaea_chart_list.csv")
-cf.artist("Silentroom")
-cf.print_summary()
-cf.reset()
-cf.cc_range(10.9, 11.5)
-cf.sort_by("CC")
-cf.print_summary()
