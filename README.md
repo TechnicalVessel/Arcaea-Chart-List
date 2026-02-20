@@ -19,17 +19,22 @@ Basically I made a class with the original list and a filtered list, and used ty
 
 <br>
 <br>
-[ ] Play Rating Calculator [next up!]
+
+[x] Play Rating Calculator
+
 <br>
 <br>
 [ ] Import scores (manual b50 or add specific charts)
 <br>
 <br>
+
 [x] Local list of charts (like arcade-songs.zetaraku.dev)
 > (saves as a CSV as of right now)
 
 <br>
-[ ] actual website?
+
+[?] actual website?
+
 <br>
 <br>
 This is the first project i'm putting out there properly and I'm really hoping it goes well. 
