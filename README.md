@@ -3,8 +3,9 @@ I will try my best to keep the list updated as updates come and chart constants 
 > Current Version: 6.12.10
 
 
-# This project requires pandas
-It's basically what makes everything possible :shrug:
+# This project requires pandas and keyboard
+pandas is basically what makes everything possible :shrug:
+keyboard is used for the scoring system
 
 # Future(heh) plans:
 [x] Add Basic Searching Program with pandas
@@ -13,13 +14,15 @@ It's basically what makes everything possible :shrug:
 Basically I made a class with the original list and a filtered list, and used typing and pandas to take specific charts based on specific criteria (Chart Constant, Name, etc.) and add that to the filtered list.
 <br>
 <br>
-[ ] Scoring Predictions (figure out your score based on miss, far, etc.)
+
+[x] Scoring Predictions (figure out your score based on miss, and pure)
+
 <br>
 <br>
-[ ] Play Rating Calculator
+[ ] Play Rating Calculator [next up!]
 <br>
 <br>
-[ ] Import scores (manual b50 or specific charts)
+[ ] Import scores (manual b50 or add specific charts)
 <br>
 <br>
 [x] Local list of charts (like arcade-songs.zetaraku.dev)
