@@ -220,14 +220,21 @@ class ArcaeaChartFilter:
         row = temp.iloc[0]
         notecount = int(row['Notes'])
         purescore = 10000000 / notecount
-        
         purecount = 0
-        
+        playrating=0.00
+        mod=None
         def display_score():
             total_score = int(purecount * purescore)
             lost_from_input = purecount
             current_lost = notecount - lost_from_input
-            print(f"\rScore: {total_score:,} | Pure: {purecount} | Lost: {current_lost} (Max notes: {notecount})", end='', flush=True)
+            if(total_score>9800000 and total_score<10000000):
+                mod=1.0+((total_score-9800000)/200000)
+            elif(total_score==10000000):
+                mod=2
+            else:
+                mod=(total_score-9800000)/300000
+            playrating=round(max(float(row['CC'])+mod, 0.0), 2)
+            print(f"\r\033[KScore: {total_score:,} | Pure: {purecount} | Lost: {current_lost} (Max notes: {notecount}) | Potential Rating: {playrating}", end='', flush=True)
         
         print("\n" + "="*80)
         print(f"Song: {row['Song']} | Difficulty: {row['Difficulty']} | Notes: {notecount}")
@@ -248,33 +255,34 @@ class ArcaeaChartFilter:
                 
                 if keyboard.is_pressed('shift+right'):
                     purecount = notecount
-                    time.sleep(0.15)  # Debounce
+                    time.sleep(0.15)  
                     
                 elif keyboard.is_pressed('shift+left'):
                     purecount = 0
-                    time.sleep(0.15)  # Debounce
+                    time.sleep(0.15)  
                     
                 elif keyboard.is_pressed('ctrl+right'):
                     purecount = min(purecount + 100, notecount)
-                    time.sleep(0.15)  # Debounce
+                    time.sleep(0.15)  
                     
                 elif keyboard.is_pressed('ctrl+left'):
                     purecount = max(0, purecount - 100)
-                    time.sleep(0.15)  # Debounce
+                    time.sleep(0.15)  
                     
                 elif keyboard.is_pressed('right'):
                     purecount += 1
                     if purecount > notecount:
                         purecount = notecount
-                    time.sleep(0.15)  # Debounce
+                    time.sleep(0.15)  
                     
                 elif keyboard.is_pressed('left'):
                     purecount = max(0, purecount - 1)
-                    time.sleep(0.15)  # Debounce
+                    time.sleep(0.15)  
+
                 elif keyboard.is_pressed('q'):
                     print("\n\nQuitting score calculator...")
                     break
-                
+
                 time.sleep(0.01)
                 
         except KeyboardInterrupt:
