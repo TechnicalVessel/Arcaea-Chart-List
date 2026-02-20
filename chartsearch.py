@@ -1,9 +1,19 @@
-import pandas as pd
+import sys
+try:
+    import pandas as pd
+except ImportError:
+    print("pandas library required. Install with: 'pip install pandas'")
+    sys.exit()
 from typing import List, Optional, Union 
 from random import randint
+import time
+
 class ArcaeaChartFilter:
-    def __init__(self):
-        self.ogcharts=pd.read_csv("arcaea_chart_list.csv")
+    def __init__(self, csvpath=None):
+        if csvpath==None:
+            self.ogcharts=pd.read_csv("arcaea_chart_list.csv")
+        else:
+            self.ogcharts=pd.read_csv(csvpath)
         self.filteredcharts=self.ogcharts.copy()
     
     def reset(self):
@@ -173,18 +183,108 @@ class ArcaeaChartFilter:
         if self.count() > max_rows:
             print(f"\n... and {self.count() - max_rows} more results")
     
-    def Score(self, song, difficulty, score=0, exact=True):
+    def Score(self, song, difficulty, exact=True):
+        try:
+            import keyboard
+        except ImportError:
+            print("keyboard library required. Install with: 'pip install keyboard'")
+            return None
+        
+        rank_thresholds = {
+            'PM': 10000000,
+            'EX+': 9900000,
+            'EX': 9800000,
+            'AA': 9500000,
+            'A': 9200000,
+            'B': 8900000,
+            'C': 8600000,
+            'D': 0
+        }
+        
         if isinstance(song, str):
             song = [song]
-        
         if exact:
-            self.temp = self.ogcharts[self.ogcharts['Song'].isin(song)]
+            temp = self.ogcharts[self.ogcharts['Song'].isin(song)]
         else:
             pattern = '|'.join(song)
-            self.temp = self.ogcharts[
+            temp = self.ogcharts[
                 self.ogcharts['Song'].str.contains(pattern, case=False, na=False)
             ]
         if isinstance(difficulty, str):
-            difficulty=[difficulty]
-        self.temp=self.temp[self.temp['Difficulty'].isin(difficulty)]
-        notecount=self.temp['Notes']
+            difficulty = [difficulty]
+        temp = temp[temp['Difficulty'].isin(difficulty)]
+
+        if temp.empty:
+            return {'Status': 'Chart not found'}
+        
+        row = temp.iloc[0]
+        notecount = int(row['Notes'])
+        purescore = 10000000 / notecount
+        
+        purecount = 0
+        
+        def display_score():
+            total_score = int(purecount * purescore)
+            lost_from_input = purecount
+            current_lost = notecount - lost_from_input
+            print(f"\rScore: {total_score:,} | Pure: {purecount} | Lost: {current_lost} (Max notes: {notecount})", end='', flush=True)
+        
+        print("\n" + "="*80)
+        print(f"Song: {row['Song']} | Difficulty: {row['Difficulty']} | Notes: {notecount}")
+        print("="*80)
+        print("Controls:")
+        print("  Right Arrow        : +1 Pure")
+        print("  Left Arrow         : -1 Pure")
+        print("  Ctrl+Right         : +100 Pure")
+        print("  Ctrl+Left          : -100 Pure")
+        print("  Shift+Right        : Max Pure")
+        print("  Shift+Left         : 0 Pure")
+        print("  Q                  : Quit")
+        print("="*80 + "\n")
+        
+        try:
+            while True:
+                display_score()
+                
+                if keyboard.is_pressed('shift+right'):
+                    purecount = notecount
+                    time.sleep(0.15)  # Debounce
+                    
+                elif keyboard.is_pressed('shift+left'):
+                    purecount = 0
+                    time.sleep(0.15)  # Debounce
+                    
+                elif keyboard.is_pressed('ctrl+right'):
+                    purecount = min(purecount + 100, notecount)
+                    time.sleep(0.15)  # Debounce
+                    
+                elif keyboard.is_pressed('ctrl+left'):
+                    purecount = max(0, purecount - 100)
+                    time.sleep(0.15)  # Debounce
+                    
+                elif keyboard.is_pressed('right'):
+                    purecount += 1
+                    if purecount > notecount:
+                        purecount = notecount
+                    time.sleep(0.15)  # Debounce
+                    
+                elif keyboard.is_pressed('left'):
+                    purecount = max(0, purecount - 1)
+                    time.sleep(0.15)  # Debounce
+                elif keyboard.is_pressed('q'):
+                    print("\n\nQuitting score calculator...")
+                    break
+                
+                time.sleep(0.01)
+                
+        except KeyboardInterrupt:
+            print("\n\nInterrupted by user")
+        
+        total_score = int(purecount * purescore)
+        return {
+            'Song': row['Song'],
+            'Difficulty': row['Difficulty'],
+            'Total_Score': total_score,
+            'Pure_Count': purecount,
+            'Lost_Count': notecount - (purecount)
+        }
