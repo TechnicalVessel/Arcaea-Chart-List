@@ -296,3 +296,5 @@ class ArcaeaChartFilter:
             'Pure_Count': purecount,
             'Lost_Count': notecount - (purecount)
         }
+acf=ArcaeaChartFilter()
+acf.Score("Testify", "Beyond")
