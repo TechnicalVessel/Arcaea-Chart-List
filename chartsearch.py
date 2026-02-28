@@ -233,8 +233,9 @@ class ArcaeaChartFilter:
                 mod=2
             else:
                 mod=(total_score-9800000)/300000
+            scorestring=f"{total_score:,}"
             playrating=round(max(float(row['CC'])+mod, 0.0), 2)
-            print(f"\r\033[KScore: {total_score:,} | Pure: {purecount} | Lost: {current_lost} (Max notes: {notecount}) | Potential Rating: {playrating}", end='', flush=True)
+            return "Score: "+scorestring+" | Pure: "+str(purecount)+" | Lost: "+str(current_lost)+" (Max notes: "+str(notecount)+") | Potential Rating: "+str(playrating)
         
         print("\n" + "="*80)
         print(f"Song: {row['Song']} | Difficulty: {row['Difficulty']} | Notes: {notecount}")
@@ -251,7 +252,8 @@ class ArcaeaChartFilter:
         
         try:
             while True:
-                display_score()
+                scoredisplay=display_score()
+                print(f"\r\033[K{scoredisplay}", end='', flush=True)
                 
                 if keyboard.is_pressed('shift+right'):
                     purecount = notecount
