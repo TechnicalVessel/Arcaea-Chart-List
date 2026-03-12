@@ -1,3 +1,7 @@
 *.ui
+<<<<<<< HEAD
 Tester.py
 __pycache__/
+=======
+Tester.py
+>>>>>>> 49b90ebc5f54b1185cbd87dc9d2aeaa4496ad805
