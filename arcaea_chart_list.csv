@@ -1,4 +1,4 @@
-Song,Artist,Difficulty,Lv,CC,Notes,Chart designer,Version
+Song,Artist,Difficulty,Lv,CC,Notes,Chart designer,Version,Alias
 Sayonara Hatsukoi,REDSHiFT,Past,1,1.5,205,Nitro,1.0.5
 Sayonara Hatsukoi,REDSHiFT,Present,4,4.5,305,Nitro,1.0.5
 Sayonara Hatsukoi,REDSHiFT,Future,7,7,666,Toaster,1.0.5
@@ -7,10 +7,10 @@ Lost Civilization,Laur vs CK,Past,4,4,462,Toaster,1.0.5
 Lost Civilization,Laur vs CK,Present,7,7,690,Toaster,1.0.5
 Lost Civilization,Laur vs CK,Future,9,9.2,986,Toaster,1.0.5
 Lost Civilization,Laur vs CK,Beyond,9+,9.8,1061,Nitro affected by Nitro,3.6.0
-GOODTEK (Arcaea Edit),EBIMAYO,Past,4,4,449,Nitro,1.0.5
-GOODTEK (Arcaea Edit),EBIMAYO,Present,6,6.5,632,Nitro,1.0.5
-GOODTEK (Arcaea Edit),EBIMAYO,Future,9,9.3,968,Nitro,1.0.5
-GOODTEK (Arcaea Edit),EBIMAYO,Beyond,9+,9.8,1103,GOODTOAST,3.0.0
+GOODTEK (Arcaea Edit),EBIMAYO,Past,4,4,449,Nitro,1.0.5,goodtek
+GOODTEK (Arcaea Edit),EBIMAYO,Present,6,6.5,632,Nitro,1.0.5,goodtek
+GOODTEK (Arcaea Edit),EBIMAYO,Future,9,9.3,968,Nitro,1.0.5,goodtek
+GOODTEK (Arcaea Edit),EBIMAYO,Beyond,9+,9.8,1103,GOODTOAST,3.0.0,goodtek
 cry of viyella,Laur,Past,3,3.5,414,Toaster,1.0.5
 cry of viyella,Laur,Present,6,6,492,Toaster,1.0.5
 cry of viyella,Laur,Future,8+,8.7,791,Toaster,1.0.5
@@ -24,15 +24,15 @@ Fairytale,chitose,Past,1,1,336,Toaster,1.0.5
 Fairytale,chitose,Present,3,3.5,511,Toaster,1.0.5
 Fairytale,chitose,Future,7,7,782,Toaster,1.0.5
 Fairytale,chitose,Beyond,9,9.5,932,Nitro in Wonderland,3.0.0
-I've heard it said,Combatplayer,Past,3,3.5,510,Toaster,1.0.5
-I've heard it said,Combatplayer,Present,6,6,664,Toaster,1.0.5
-I've heard it said,Combatplayer,Future,8,8.1,864,Toaster,1.0.5
+I've heard it said,Combatplayer,Past,3,3.5,510,Toaster,1.0.5,ive heard it said
+I've heard it said,Combatplayer,Present,6,6,664,Toaster,1.0.5,ive heard it said
+I've heard it said,Combatplayer,Future,8,8.1,864,Toaster,1.0.5,ive heard it said
 Babaroque,cYsmix,Past,3,3,402,Toaster,1.0.5
 Babaroque,cYsmix,Present,6,6.5,645,Toaster,1.0.5
 Babaroque,cYsmix,Future,8,8.5,808,Toaster,1.0.5
-memoryfactory.lzh,Frums,Past,2,2.5,308,Nitro,1.0.5
-memoryfactory.lzh,Frums,Present,5,5.5,448,Nitro,1.0.5
-memoryfactory.lzh,Frums,Future,8+,8.9,672,Nitro,1.0.5
+memoryfactory.lzh,Frums,Past,2,2.5,308,Nitro,1.0.5,memoryfactory
+memoryfactory.lzh,Frums,Present,5,5.5,448,Nitro,1.0.5,memoryfactory
+memoryfactory.lzh,Frums,Future,8+,8.9,672,Nitro,1.0.5,memoryfactory
 Snow White,Puru,Past,2,2.5,486,Toaster,1.0.5
 Snow White,Puru,Present,5,5,672,Toaster,1.0.5
 Snow White,Puru,Future,8,8.4,978,Toaster,1.0.5
@@ -51,14 +51,14 @@ Vexaria,ak+q,Beyond,9,9,785,石樂,3.0.0
 Essence of Twilight,ak+q,Past,4,4.5,556,Nitro,1.0.5
 Essence of Twilight,ak+q,Present,7,7,767,Nitro,1.0.5
 Essence of Twilight,ak+q,Future,9,9.1,1204,Nitro,1.0.5
-qualia -ideaesthesia-,nitro,Past,4,4.5,550,-chartaesthesia-,1.0.5
-qualia -ideaesthesia-,nitro,Present,7,7,875,-chartaesthesia-,1.0.5
-qualia -ideaesthesia-,nitro,Future,9,9.1,1022,-chartaesthesia-,1.0.5
-qualia -ideaesthesia-,nitro,Beyond,9+,9.8,1288,moonquay -end of chartaesthesia-,3.10.0
+qualia -ideaesthesia-,nitro,Past,4,4.5,550,-chartaesthesia-,1.0.5,qualia
+qualia -ideaesthesia-,nitro,Present,7,7,875,-chartaesthesia-,1.0.5,qualia
+qualia -ideaesthesia-,nitro,Future,9,9.1,1022,-chartaesthesia-,1.0.5,qualia
+qualia -ideaesthesia-,nitro,Beyond,9+,9.8,1288,moonquay -end of chartaesthesia-,3.10.0,qualia
 PRAGMATISM,Laur,Past,4,4.5,476,東星,1.0.5
 PRAGMATISM,Laur,Present,8,8.6,855,東星,1.0.5
 PRAGMATISM,Laur,Future,10,10.1,942,東星,1.0.5
-PRAGMATISM -RESURRECTION-,Laur,Beyond,11,11.2,1502,THE LAST DREAM,3.10.0
+PRAGMATISM -RESURRECTION-,Laur,Beyond,11,11.2,1502,THE LAST DREAM,3.10.0,pragmatism
 Sheriruth,Team Grimoire,Past,5,5.5,611,夜浪,1.0.5
 Sheriruth,Team Grimoire,Present,7,7.5,832,夜浪,1.0.5
 Sheriruth,Team Grimoire,Future,10,10,1151,夜浪,1.0.5
@@ -66,17 +66,17 @@ Lumia,sky_delta,Past,2,2.5,469,Nitro,1.0.5
 Lumia,sky_delta,Present,5,5.5,438,Nitro,1.0.5
 Lumia,sky_delta,Future,8,8.4,961,Toaster missing Nitro.,1.0.5
 Lumia,sky_delta,Beyond,9,9.5,814,Toaster.,3.2.3
-Dement ~after legend~,Cosmograph,Past,3,3.5,548,Toaster,1.0.9
-Dement ~after legend~,Cosmograph,Present,6,6,756,Toaster,1.0.9
-Dement ~after legend~,Cosmograph,Future,7+,7.8,970,Toaster,1.0.9
-Dement ~after legend~,Cosmograph,Beyond,9+,9.9,1040,Nitro ~ABYSS~,3.1.0
+Dement ~after legend~,Cosmograph,Past,3,3.5,548,Toaster,1.0.9,dement after legend
+Dement ~after legend~,Cosmograph,Present,6,6,756,Toaster,1.0.9,dement after legend
+Dement ~after legend~,Cosmograph,Future,7+,7.8,970,Toaster,1.0.9,dement after legend
+Dement ~after legend~,Cosmograph,Beyond,9+,9.9,1040,Nitro ~ABYSS~,3.1.0,dement after legend
 Dandelion,Farhan,Past,2,2.5,391,Nitro,1.0.9
 Dandelion,Farhan,Present,6,6,698,Nitro,1.0.9
 Dandelion,Farhan,Future,8,8.5,921,Nitro,1.0.9
-Anökumene,Jun Kuroda,Past,2,2.5,412,Toaster,1.0.10
-Anökumene,Jun Kuroda,Present,6,6.5,588,Toaster,1.0.10
-Anökumene,Jun Kuroda,Future,9,9.2,851,Toaster,1.0.10
-Anökumene,Jun Kuroda,Beyond,9+,9.9,971,Astral Luxance,6.4.0
+Anökumene,Jun Kuroda,Past,2,2.5,412,Toaster,1.0.10,ankoumene
+Anökumene,Jun Kuroda,Present,6,6.5,588,Toaster,1.0.10,ankoumene
+Anökumene,Jun Kuroda,Future,9,9.2,851,Toaster,1.0.10,ankoumene
+Anökumene,Jun Kuroda,Beyond,9+,9.9,971,Astral Luxance,6.4.0,ankoumene
 Infinity Heaven,HyuN,Past,1,1.5,336,Nitro,1.0.10
 Infinity Heaven,HyuN,Present,5,5.5,545,Nitro,1.0.10
 Infinity Heaven,HyuN,Future,7+,7.8,853,Nitro,1.0.10
@@ -103,12 +103,12 @@ Brand new world,U-ske,Future,7+,7.8,787,Nitro 2.0,1.0.11
 DataErr0r,Cosmograph,Past,3,3,502,ToastErr0r,1.1.0
 DataErr0r,Cosmograph,Present,7,7,785,ToastErr0r,1.1.0
 DataErr0r,Cosmograph,Future,9,9.5,955,ToastErr0r,1.1.0
-CROSS†SOUL,HyuN feat. Syepias,Past,4,4,606,k//eternal,1.1.0
-CROSS†SOUL,HyuN feat. Syepias,Present,7,7,823,k//eternal,1.1.0
-CROSS†SOUL,HyuN feat. Syepias,Future,9,9.4,1081,k//eternal,1.1.0
-Your voice so... feat. Such,PSYQUI,Past,3,3.5,469,Nitro,1.1.0
-Your voice so... feat. Such,PSYQUI,Present,6,6.5,677,Nitro,1.1.0
-Your voice so... feat. Such,PSYQUI,Future,9,9.4,1013,Nitro,1.1.0
+CROSS†SOUL,HyuN feat. Syepias,Past,4,4,606,k//eternal,1.1.0,crosssoul
+CROSS†SOUL,HyuN feat. Syepias,Present,7,7,823,k//eternal,1.1.0,crosssoul
+CROSS†SOUL,HyuN feat. Syepias,Future,9,9.4,1081,k//eternal,1.1.0,crosssoul
+Your voice so... feat. Such,PSYQUI,Past,3,3.5,469,Nitro,1.1.0,your voice so
+Your voice so... feat. Such,PSYQUI,Present,6,6.5,677,Nitro,1.1.0,your voice so
+Your voice so... feat. Such,PSYQUI,Future,9,9.4,1013,Nitro,1.1.0,your voice so
 Chronostasis,黒皇帝,Past,3,3.5,619,Kurorak,1.1.0
 Chronostasis,黒皇帝,Present,7,7.5,812,Kurorak,1.1.0
 Chronostasis,黒皇帝,Future,8+,8.9,916,Kurorak,1.1.0
@@ -122,15 +122,15 @@ Moonlight of Sand Castle,旅人E,Future,7+,7.8,645,Kurorak,1.1.2
 REconstruction,Ryazan,Past,2,2.5,347,Nitro,1.1.2
 REconstruction,Ryazan,Present,6,6,469,Nitro,1.1.2
 REconstruction,Ryazan,Future,8,8.4,825,Nitro,1.1.2
-Evoltex (poppi'n mix),Arch vs n3pu,Past,2,2,297,k//eternal,1.1.2
-Evoltex (poppi'n mix),Arch vs n3pu,Present,7,7,627,k//eternal,1.1.2
-Evoltex (poppi'n mix),Arch vs n3pu,Future,8+,8.9,775,k//eternal,1.1.2
+Evoltex (poppi'n mix),Arch vs n3pu,Past,2,2,297,k//eternal,1.1.2,evoltex
+Evoltex (poppi'n mix),Arch vs n3pu,Present,7,7,627,k//eternal,1.1.2,evoltex
+Evoltex (poppi'n mix),Arch vs n3pu,Future,8+,8.9,775,k//eternal,1.1.2,evoltex
 Oracle,TQ☆,Past,3,3,425,Nitro,1.1.2
 Oracle,TQ☆,Present,5,5.5,508,Nitro,1.1.2
 Oracle,TQ☆,Future,9,9.3,963,Nitro,1.1.2
-αterlβus,Aoi,Past,4,4,505,τoastεr,1.1.2
-αterlβus,Aoi,Present,7,7.5,668,τoastεr,1.1.2
-αterlβus,Aoi,Future,10,10.2,1030,τoastεr,1.1.2
+αterlβus,Aoi,Past,4,4,505,τoastεr,1.1.2,aterlbus
+αterlβus,Aoi,Present,7,7.5,668,τoastεr,1.1.2,aterlbus
+αterlβus,Aoi,Future,10,10.2,1030,τoastεr,1.1.2,aterlbus
 Clotho and the stargazer,しーけー,Past,2,2,519,小東星,1.1.2
 Clotho and the stargazer,しーけー,Present,5,5,745,小東星,1.1.2
 Clotho and the stargazer,しーけー,Future,7+,7.8,1021,小東星,1.1.2
@@ -158,9 +158,9 @@ Moonheart,翡乃イスカ,Beyond,9+,9.7,1139,Toaster,3.4.1
 Genesis,Iris,Past,2,2,275,Haruba,1.1.4
 Genesis,Iris,Present,5,5.5,399,Haruba,1.1.4
 Genesis,Iris,Future,8,8.2,713,Haruba,1.1.4
-Harutopia ~Utopia of Spring~,A-zu-ra,Past,1,1,444,トーストピア  ~Utopia of Toast~,1.1.4
-Harutopia ~Utopia of Spring~,A-zu-ra,Present,4,4.5,706,トーストピア  ~Utopia of Toast~,1.1.4
-Harutopia ~Utopia of Spring~,A-zu-ra,Future,8,8.5,1061,トーストピア  ~Utopia of Toast~,1.1.4
+Harutopia ~Utopia of Spring~,A-zu-ra,Past,1,1,444,トーストピア  ~Utopia of Toast~,1.1.4,harutopia
+Harutopia ~Utopia of Spring~,A-zu-ra,Present,4,4.5,706,トーストピア  ~Utopia of Toast~,1.1.4,harutopia
+Harutopia ~Utopia of Spring~,A-zu-ra,Future,8,8.5,1061,トーストピア  ~Utopia of Toast~,1.1.4,harutopia
 Auxesia,ginkiha,Past,3,3.5,385,Nitroだー！！,1.1.4
 Auxesia,ginkiha,Present,6,6.5,648,Nitroだー！,1.1.4
 Auxesia,ginkiha,Future,9,9.3,1000,Nitroだー！,1.1.4
@@ -189,9 +189,9 @@ Axium Crisis,ak+q,Future,10,10.6,1094,The Monolith,1.5.0
 Grievous Lady,Team Grimoire vs Laur,Past,6,6.5,956,迷路第一層,1.5.0
 Grievous Lady,Team Grimoire vs Laur,Present,9,9.3,1194,迷路第二層,1.5.0
 Grievous Lady,Team Grimoire vs Laur,Future,11,11.1,1450,迷路深層,1.5.0
-Dreamin' Attraction!!,翡乃イスカ,Past,4,4.5,592,Nitro,1.5.0
-Dreamin' Attraction!!,翡乃イスカ,Present,7,7,785,Nitro,1.5.0
-Dreamin' Attraction!!,翡乃イスカ,Future,9,9.4,1129,Nitro,1.5.0
+Dreamin' Attraction!!,翡乃イスカ,Past,4,4.5,592,Nitro,1.5.0,dreamin attraction
+Dreamin' Attraction!!,翡乃イスカ,Present,7,7,785,Nitro,1.5.0,dreamin attraction
+Dreamin' Attraction!!,翡乃イスカ,Future,9,9.4,1129,Nitro,1.5.0,dreamin attraction
 Red and Blue,Silentroom,Past,4,4,464,#NAME?,1.5.0
 Red and Blue,Silentroom,Present,7+,7.8,597,side BLUE -chartaesthesia-,1.5.0
 Red and Blue,Silentroom,Future,9,9.4,845,#NAME?,1.5.0
@@ -249,9 +249,9 @@ Metallic Punisher,INNOCENT NOIZE,Future,10,10.3,1238,Black Tea,1.5.6
 Blaster,Massive New Krew,Past,4,4,571,k//urorak,1.5.7
 Blaster,Massive New Krew,Present,7,7,635,k//urorak,1.5.7
 Blaster,Massive New Krew,Future,9,9.3,1002,k//urorak,1.5.7
-γuarδina,Aoi,Past,4,4,507,τoastεr,1.6.2
-γuarδina,Aoi,Present,8,8,678,τoastεr,1.6.2
-γuarδina,Aoi,Future,10,10.4,1120,τoastεr,1.6.2
+γuarδina,Aoi,Past,4,4,507,τoastεr,1.6.2,guardina
+γuarδina,Aoi,Present,8,8,678,τoastεr,1.6.2,guardina
+γuarδina,Aoi,Future,10,10.4,1120,τoastεr,1.6.2,guardina
 carmine:scythe,かゆき,Past,4,4,493,週刊Toaster,1.6.2
 carmine:scythe,かゆき,Present,7+,7.8,710,週刊Toaster,1.6.2
 carmine:scythe,かゆき,Future,9,9.6,1164,週刊Toaster,1.6.2
@@ -262,9 +262,9 @@ Cybernecia Catharsis,Tanchiky,Past,4,4,377,Kero,1.6.4
 Cybernecia Catharsis,Tanchiky,Present,7,7,655,Kero,1.6.4
 Cybernecia Catharsis,Tanchiky,Future,9,9.5,946,Kero + Nitro,1.6.4
 Cybernecia Catharsis,Tanchiky,Beyond,9+,9.8,991,antymis,5.3.0
-Call My Name feat. Yukacco,Mameyudoufu,Past,3,3.5,591,Kurorak,1.6.6
-Call My Name feat. Yukacco,Mameyudoufu,Present,6,6,653,Kurorak,1.6.6
-Call My Name feat. Yukacco,Mameyudoufu,Future,8+,8.7,921,Kuro my Nitro,1.6.6
+Call My Name feat. Yukacco,Mameyudoufu,Past,3,3.5,591,Kurorak,1.6.6,call my name
+Call My Name feat. Yukacco,Mameyudoufu,Present,6,6,653,Kurorak,1.6.6,call my name
+Call My Name feat. Yukacco,Mameyudoufu,Future,8+,8.7,921,Kuro my Nitro,1.6.6,call my name
 inkar-usi,DIA,Past,2,2,276,Kurorak,1.6.6
 inkar-usi,DIA,Present,4,4,326,Kurorak,1.6.6
 inkar-usi,DIA,Future,7+,7.8,463,Kurorak,1.6.6
@@ -291,17 +291,17 @@ Suomi,Aire,Past,2,2,368,Toastie,1.7.0
 Suomi,Aire,Present,5,5,550,Toastie,1.7.0
 Suomi,Aire,Future,7+,7.8,818,Toastie,1.7.0
 Suomi,Aire,Eternal,8+,8.9,732,CERiNG,5.4.0
-Bookmaker (2D Version),Kobaryo,Past,4,4.5,538,Kurorak,1.7.0
-Bookmaker (2D Version),Kobaryo,Present,6,6.5,728,Kurorak,1.7.0
-Bookmaker (2D Version),Kobaryo,Future,8,8.3,1124,Kurorak,1.7.0
-Bookmaker (2D Version),Kobaryo,Beyond,10,10,1287,Toastmaker,3.6.4
+Bookmaker (2D Version),Kobaryo,Past,4,4.5,538,Kurorak,1.7.0,Bookmaker
+Bookmaker (2D Version),Kobaryo,Present,6,6.5,728,Kurorak,1.7.0,Bookmaker
+Bookmaker (2D Version),Kobaryo,Future,8,8.3,1124,Kurorak,1.7.0,Bookmaker
+Bookmaker (2D Version),Kobaryo,Beyond,10,10,1287,Toastmaker,3.6.4,Bookmaker
 Illegal Paradise,gmtn. (witch's slave),Past,2,2,535,k//eternal,1.7.0
 Illegal Paradise,gmtn. (witch's slave),Present,7,7,585,k//eternal,1.7.0
 Illegal Paradise,gmtn. (witch's slave),Future,9,9.5,1061,k//eternal + nitro,1.7.0
 dropdead,Frums,Past,1,1.5,44,-chartaesthesia-LIMITER:10%,1.7.2
 dropdead,Frums,Present,9,9.5,1323,-chartaesthesia-LIMITER:100%,1.7.2
 dropdead,Frums,Future,8+,9.1,823,-chartaesthesia-LIMITER:25% (OVERDRIVE:+100%),1.7.2
-overdead.,fn,Beyond,10,10.5,1503,絶滅 over 夜浪.,3.12.2
+overdead.,fn,Beyond,10,10.5,1503,絶滅 over 夜浪.,3.12.2,dropdead
 Fallensquare,Silentroom,Past,3,3,316,Haruba,1.7.2
 Fallensquare,Silentroom,Present,7,7.5,486,Haruba,1.7.2
 Fallensquare,Silentroom,Future,9+,9.7,703,Haruba,1.7.2
@@ -309,9 +309,9 @@ Nhelv,Silentroom,Past,3,3,647,Nitro「Katastrophe」,1.7.2
 Nhelv,Silentroom,Present,6,6.5,913,Nitro「Katastrophe」,1.7.2
 Nhelv,Silentroom,Future,9+,9.9,1108,Nitro「Katastrophe」,1.7.2
 Nhelv,Silentroom,Beyond,10+,10.9,1474,零下 -descent-,6.4.0
-LunarOrbit -believe in the Espebranch road-,Apo11o program ft. 大瀬良あい,Past,3,3.5,624,月刊Toaster,1.7.4
-LunarOrbit -believe in the Espebranch road-,Apo11o program ft. 大瀬良あい,Present,6,6,757,月刊Toaster,1.7.4
-LunarOrbit -believe in the Espebranch road-,Apo11o program ft. 大瀬良あい,Future,9,9.6,1058,月刊Toaster,1.7.4
+LunarOrbit -believe in the Espebranch road-,Apo11o program ft. 大瀬良あい,Past,3,3.5,624,月刊Toaster,1.7.4,lunarorbit
+LunarOrbit -believe in the Espebranch road-,Apo11o program ft. 大瀬良あい,Present,6,6,757,月刊Toaster,1.7.4,lunarorbit
+LunarOrbit -believe in the Espebranch road-,Apo11o program ft. 大瀬良あい,Future,9,9.6,1058,月刊Toaster,1.7.4,lunarorbit
 Purgatorium,お月さま交響曲,Past,2,2.5,609,Kurorak,1.7.5
 Purgatorium,お月さま交響曲,Present,6,6,641,Kurorak,1.7.5
 Purgatorium,お月さま交響曲,Future,8,8.4,983,Kurorak,1.7.5
@@ -360,9 +360,9 @@ OMAKENO Stroke,t+pazolite,Beyond,10,10.3,931,NITRO,3.12.4
 Scarlet Lance,MASAKI (ZUNTATA),Past,4,4,517,闇運,1.9.0
 Scarlet Lance,MASAKI (ZUNTATA),Present,7,7,644,闇運,1.9.0
 Scarlet Lance,MASAKI (ZUNTATA),Future,10,10,1130,闇運,1.9.0
-ouroboros -twin stroke of the end-,Cranky VS MASAKI,Past,4,4.5,575,Groove 東星,1.9.0
-ouroboros -twin stroke of the end-,Cranky VS MASAKI,Present,7,7.5,832,Groove 東星,1.9.0
-ouroboros -twin stroke of the end-,Cranky VS MASAKI,Future,10+,10.7,1369,Groove 東星,1.9.0
+ouroboros -twin stroke of the end-,Cranky VS MASAKI,Past,4,4.5,575,Groove 東星,1.9.0,ouroboros
+ouroboros -twin stroke of the end-,Cranky VS MASAKI,Present,7,7.5,832,Groove 東星,1.9.0,ouroboros
+ouroboros -twin stroke of the end-,Cranky VS MASAKI,Future,10+,10.7,1369,Groove 東星,1.9.0,ouroboros
 Libertas,Zekk,Past,3,3.5,476,Kurorak,1.9.2
 Libertas,Zekk,Present,5,5.5,514,Kurorak,1.9.2
 Libertas,Zekk,Future,9,9.2,947,Kurorak + Nitro,1.9.2
@@ -393,9 +393,9 @@ ReviXy,ikaruga_nex,Future,9,9.1,1047,Revoke Kurorak,2.0.0
 Grimheart,Puru,Past,2,2.5,728,Toaster,2.0.0
 Grimheart,Puru,Present,5,5,699,Toaster,2.0.0
 Grimheart,Puru,Future,8+,8.7,959,Toaster,2.0.0
-VECTOЯ,WHITEFISTS,Past,3,3,675,Nitro,2.0.3
-VECTOЯ,WHITEFISTS,Present,7,7,1002,Nitro,2.0.3
-VECTOЯ,WHITEFISTS,Future,9,9.4,1299,Nitro,2.0.3
+VECTOЯ,WHITEFISTS,Past,3,3,675,Nitro,2.0.3,vector
+VECTOЯ,WHITEFISTS,Present,7,7,1002,Nitro,2.0.3,vector
+VECTOЯ,WHITEFISTS,Future,9,9.4,1299,Nitro,2.0.3,vector
 SUPERNOVA,BACO,Past,3,3,664,東超新星,2.0.3
 SUPERNOVA,BACO,Present,6,6,564,東超新星,2.0.3
 SUPERNOVA,BACO,Future,9+,9.7,1123,東超新星,2.0.3
@@ -430,9 +430,9 @@ Ringed Genesis,Edelritter,Future,10+,10.8,1146,夜浪 vs Nitro,2.2.0
 Chelsea,7mai,Past,3,3,388,TaroNuke,2.3.0
 Chelsea,7mai,Present,6,6,503,TaroNuke,2.3.0
 Chelsea,7mai,Future,8+,8.9,650,TaroNuke,2.3.0
-AI[UE]OON,MYUKKE.,Past,3,3.5,436,N[I]TRO,2.3.0
-AI[UE]OON,MYUKKE.,Present,6,6.5,623,N[I]TRO,2.3.0
-AI[UE]OON,MYUKKE.,Future,9,9.4,989,N[I]TRO,2.3.0
+AI[UE]OON,MYUKKE.,Past,3,3.5,436,N[I]TRO,2.3.0,aiueoon
+AI[UE]OON,MYUKKE.,Present,6,6.5,623,N[I]TRO,2.3.0,aiueoon
+AI[UE]OON,MYUKKE.,Future,9,9.4,989,N[I]TRO,2.3.0,aiueoon
 A Wandering Melody of Love,からとPαnchii少年 feat.はるの,Past,3,3.5,422,恋のToaster,2.3.0
 A Wandering Melody of Love,からとPαnchii少年 feat.はるの,Present,7,7.5,670,恋のToaster,2.3.0
 A Wandering Melody of Love,からとPαnchii少年 feat.はるの,Future,9,9.6,931,恋のToaster,2.3.0
@@ -452,15 +452,16 @@ FREEF4LL,YUKIYANAGI,Past,4,4,589,N↓TRO,2.4.0
 FREEF4LL,YUKIYANAGI,Present,7,7,782,N↓TRO,2.4.0
 FREEF4LL,YUKIYANAGI,Future,8,8.6,1023,N↓TRO,2.4.0
 FREEF4LL,YUKIYANAGI,Beyond,9+,9.8,1336,TO4STER,4.1.4
-GLORY：ROAD,uma vs. モリモリあつし,Past,4,4.5,868,東星※紅空,2.4.0
-GLORY：ROAD,uma vs. モリモリあつし,Present,7,7,999,東星※紅空,2.4.0
-GLORY：ROAD,uma vs. モリモリあつし,Future,10,10.5,1479,東星※紅空,2.4.0
+GLORY：ROAD,uma vs. モリモリあつし,Past,4,4.5,868,東星※紅空,2.4.0,glory:road
+GLORY：ROAD,uma vs. モリモリあつし,Present,7,7,999,東星※紅空,2.4.0,glory:road
+GLORY：ROAD,uma vs. モリモリあつし,Future,10,10.5,1479,東星※紅空,2.4.0,glory:road
 Monochrome Princess,polysha,Past,4,4.5,621,N↕TRO,2.4.3
 Monochrome Princess,polysha,Present,7+,7.8,756,N↕TRO,2.4.3
 Monochrome Princess,polysha,Future,9+,9.7,974,N↕TRO,2.4.3
 Heavenly caress,Noah,Past,3,3.5,855,Toaster,2.4.3
 Heavenly caress,Noah,Present,7,7.5,909,Toaster,2.4.3
 Heavenly caress,Noah,Future,9+,9.8,1560,Toaster,2.4.3
+Heavenly caress,Noah,Beyond,10+,10.9,1717,絶•零•夜,6.13.0
 Senkyou,MYTK,Past,3,3,627,k//eternal,2.4.5
 Senkyou,MYTK,Present,5,5.5,722,k//eternal,2.4.5
 Senkyou,MYTK,Future,8+,8.7,964,k//eternal,2.4.5
@@ -473,9 +474,9 @@ Avant Raze,Sampling Masters MEGA,Future,9,9.6,1125,Avant Toast,2.4.7
 BATTLE NO.1,TANO*C Sound Team,Past,3,3.5,476,Nitro,2.4.9
 BATTLE NO.1,TANO*C Sound Team,Present,6,6.5,677,Nitro,2.4.9
 BATTLE NO.1,TANO*C Sound Team,Future,9+,9.7,1042,Arcaea Team,2.4.9
-La'qryma of the Wasteland,DJ Noriken,Past,3,3.5,447,Toaster,2.5.0
-La'qryma of the Wasteland,DJ Noriken,Present,6,6.5,651,Toaster,2.5.0
-La'qryma of the Wasteland,DJ Noriken,Future,9,9.1,956,Toaster,2.5.0
+La'qryma of the Wasteland,DJ Noriken,Past,3,3.5,447,Toaster,2.5.0,laqryma
+La'qryma of the Wasteland,DJ Noriken,Present,6,6.5,651,Toaster,2.5.0,laqryma
+La'qryma of the Wasteland,DJ Noriken,Future,9,9.1,956,Toaster,2.5.0,laqryma
 La'qryma of the Wasteland,DJ Noriken,Beyond,10,10,1161,Nitro 「The Forsaken」,3.6.4
 Einherjar Joker,DJ Genki vs Gram,Past,4,4,582,Requiem TaroNuke,2.5.0
 Einherjar Joker,DJ Genki vs Gram,Present,7,7,767,Requiem TaroNuke,2.5.0
@@ -515,7 +516,7 @@ Lost Desire,Powerless feat. Sennzai,Future,9+,9.8,1154,Darkest Dream,3.0.0
 Dantalion,Team Grimoire,Past,5,5,731,夜浪,3.0.0
 Dantalion,Team Grimoire,Present,8,8.2,843,東星,3.0.0
 Dantalion,Team Grimoire,Future,10+,10.8,1476,"夜浪 X 東星 ""The Lost""",3.0.0
-#1f1e33,かめりあ(EDP),Past,5,5.5,765,夜浪,3.0.0
+#1f1e33,かめりあ(EDP),Past,5,5.5,765,夜浪,3.0.0,
 #1f1e33,かめりあ(EDP),Present,9,9.2,1144,夜浪,3.0.0
 #1f1e33,かめりあ(EDP),Future,11,11.1,1576,"夜浪 VS 東星 ""Convergence""",3.0.0
 Tempestissimo,t+pazolite,Past,7,7,919,Prelude - Ouverture,3.0.0
@@ -535,24 +536,24 @@ Give Me a Nightmare,アリスシャッハと魔法の楽団,Future,8+,8.9,948,CE
 Black Lotus,wa.,Past,3,3,653,Exschwasion,3.0.0
 Black Lotus,wa.,Present,6,6.5,687,Exschwasion,3.0.0
 Black Lotus,wa.,Future,9+,9.7,965,Exschwasion,3.0.0
-Gekka (Short Version),Nhato,Past,4,4,559,Nitro,3.0.0
-Gekka (Short Version),Nhato,Present,6,6.5,628,Nitro,3.0.0
-Gekka (Short Version),Nhato,Future,8,8.6,817,Nitro,3.0.0
+Gekka (Short Version),Nhato,Past,4,4,559,Nitro,3.0.0,gekka
+Gekka (Short Version),Nhato,Present,6,6.5,628,Nitro,3.0.0,gekka
+Gekka (Short Version),Nhato,Future,8,8.6,817,Nitro,3.0.0,gekka
 Vivid Theory,ak+q,Past,2,2,447,TaroNuke,3.0.0
 Vivid Theory,ak+q,Present,5,5,658,TaroNuke,3.0.0
 Vivid Theory,ak+q,Future,8+,8.8,885,TaroNuke,3.0.0
-1F√,WHITEFISTS,Past,2,2.5,411,Nitro,3.0.0
-1F√,WHITEFISTS,Present,6,6.5,539,Nitro,3.0.0
-1F√,WHITEFISTS,Future,8,8.2,758,Nitro,3.0.0
+1F√,WHITEFISTS,Past,2,2.5,411,Nitro,3.0.0,1fv
+1F√,WHITEFISTS,Present,6,6.5,539,Nitro,3.0.0,1fv
+1F√,WHITEFISTS,Future,8,8.2,758,Nitro,3.0.0,1fv
 Scarlet Cage,Daisuke Kurosawa,Past,4,4,570,赤Nitro,3.0.3
 Scarlet Cage,Daisuke Kurosawa,Present,7,7.5,711,赤Nitro,3.0.3
 Scarlet Cage,Daisuke Kurosawa,Future,9+,9.8,1195,赤Nitro,3.0.3
-Faint Light (Arcaea Edit),Taishi,Past,3,3,587,Nitro,3.0.3
-Faint Light (Arcaea Edit),Taishi,Present,6,6,711,Nitro,3.0.3
-Faint Light (Arcaea Edit),Taishi,Future,9,9.1,809,Nitro,3.0.3
-Feels So Right feat. Renko,Mysteka,Past,3,3.5,594,Toaster,3.0.3
-Feels So Right feat. Renko,Mysteka,Present,6,6.5,636,Toaster,3.0.3
-Feels So Right feat. Renko,Mysteka,Future,9,9.3,947,Toaster,3.0.3
+Faint Light (Arcaea Edit),Taishi,Past,3,3,587,Nitro,3.0.3,faint light
+Faint Light (Arcaea Edit),Taishi,Present,6,6,711,Nitro,3.0.3,faint light
+Faint Light (Arcaea Edit),Taishi,Future,9,9.1,809,Nitro,3.0.3,faint light
+Feels So Right feat. Renko,Mysteka,Past,3,3.5,594,Toaster,3.0.3,feels so right
+Feels So Right feat. Renko,Mysteka,Present,6,6.5,636,Toaster,3.0.3,feels so right
+Feels So Right feat. Renko,Mysteka,Future,9,9.3,947,Toaster,3.0.3,feels so right
 Teriqma,owl＊tree,Past,3,3,345,Nitro,3.0.5
 Teriqma,owl＊tree,Present,6,6.5,579,Nitro,3.0.5
 Teriqma,owl＊tree,Future,9,9.4,873,Nitro,3.0.5
