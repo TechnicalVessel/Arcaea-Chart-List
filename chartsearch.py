@@ -183,7 +183,7 @@ class ArcaeaChartFilter:
         if self.count() > max_rows:
             print(f"\n... and {self.count() - max_rows} more results")
     
-    def Score(self, song, difficulty, exact=True):
+    def Score(self, song, difficulty, exact=False):
         try:
             import keyboard
         except ImportError:
