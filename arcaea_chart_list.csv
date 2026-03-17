@@ -186,6 +186,7 @@ conflict,siromaru + cranky,Future,10,10.2,1056,toaster + nitro,1.5.0
 Axium Crisis,ak+q,Past,5,5.5,685,The Monolith,1.5.0
 Axium Crisis,ak+q,Present,8,8.5,1065,The Monolith,1.5.0
 Axium Crisis,ak+q,Future,10,10.6,1094,The Monolith,1.5.0
+Axium Divergence,ak+1 (lowiro),Beyond,11,11.3,1682,Monolith - Diverged,6.13.0
 Grievous Lady,Team Grimoire vs Laur,Past,6,6.5,956,迷路第一層,1.5.0
 Grievous Lady,Team Grimoire vs Laur,Present,9,9.3,1194,迷路第二層,1.5.0
 Grievous Lady,Team Grimoire vs Laur,Future,11,11.1,1450,迷路深層,1.5.0
@@ -258,6 +259,7 @@ carmine:scythe,かゆき,Future,9,9.6,1164,週刊Toaster,1.6.2
 Be There,PSYQUI,Past,4,4,592,Nitro,1.6.4
 Be There,PSYQUI,Present,7,7.5,792,Nitro,1.6.4
 Be There,PSYQUI,Future,9,9.4,982,Be Nitro,1.6.4
+Be There,PSYQUI,Beyond,10,10.5,1127,BE KARAT,6.13.0
 Cybernecia Catharsis,Tanchiky,Past,4,4,377,Kero,1.6.4
 Cybernecia Catharsis,Tanchiky,Present,7,7,655,Kero,1.6.4
 Cybernecia Catharsis,Tanchiky,Future,9,9.5,946,Kero + Nitro,1.6.4
@@ -598,6 +600,7 @@ Alice à la mode,Masanori Akita,Future,9,9.2,872,Toaster,3.3.0
 Eccentric Tale,Yamajet,Past,2,2,313,Nitro,3.3.0
 Eccentric Tale,Yamajet,Present,5,5.5,483,Nitro,3.3.0
 Eccentric Tale,Yamajet,Future,8,8.4,732,Nitro,3.3.0
+Eccentric Tale,Yamajet,Beyond,9+,9.9,1325,Nitro「The Aberrant」,6.13.0
 Alice's Suitcase,Endorfin.,Past,3,3.5,644,Kurorak,3.3.0
 Alice's Suitcase,Endorfin.,Present,6,6,660,Kurorak,3.3.0
 Alice's Suitcase,Endorfin.,Future,9,9.1,999,Kurorak,3.3.0
@@ -709,6 +712,7 @@ REKKA RESONANCE,REDALiCE vs Kobaryo,Future,10+,10.7,1212,夜浪 vs Nitro,3.6.4
 False Embellishment,影虎。 & ikaruga_nex,Past,3,3.5,576,Exschwasion,3.7.0
 False Embellishment,影虎。 & ikaruga_nex,Present,6,6.5,684,Exschwasion,3.7.0
 False Embellishment,影虎。 & ikaruga_nex,Future,9,9.3,969,Exschwasion,3.7.0
+False Embellishment,影虎。 & ikaruga_nex,Beyond,9+,9.9,1325,¬ə,6.13.0
 HIVEMIND,かたぎり,Past,4,4,995,NITRO -unconnected-,3.7.0
 HIVEMIND,かたぎり,Present,8,8.6,988,NITRO -unconnected-,3.7.0
 HIVEMIND,かたぎり,Future,10,10,1252,NITRO -unconnected-,3.7.0
@@ -718,6 +722,7 @@ Seclusion,Laur feat. Sennzai,Future,10,10.6,1132,N•Ex•T,3.7.0
 Small Cloud Sugar Candy,テヅカ x Aoi feat.桃雛なの,Past,3,3,548,én,3.7.0
 Small Cloud Sugar Candy,テヅカ x Aoi feat.桃雛なの,Present,6,6.5,727,én,3.7.0
 Small Cloud Sugar Candy,テヅカ x Aoi feat.桃雛なの,Future,9,9.3,919,én,3.7.0
+Small Cloud Sugar Candy,テヅカ x Aoi feat.桃雛なの,Beyond,10,10.3,1158,@#7¥M!$,6.13.0
 AlterAle,Arik Kau Delay (アラ＆かゆき＆でり）,Past,3,3,728,CERiNG,3.7.0
 AlterAle,Arik Kau Delay (アラ＆かゆき＆でり）,Present,6,6,881,CERiNG,3.7.0
 AlterAle,Arik Kau Delay (アラ＆かゆき＆でり）,Future,9+,9.7,1277,CERiNG,3.7.0
@@ -1314,6 +1319,7 @@ Rain of Conflict in a Radiant Abyss,ak+q,Eternal,10,10.5,1247,Nitro meets Toaste
 Saint or Sinner,crayvxn,Past,3,3,447,小終点,5.10.4
 Saint or Sinner,crayvxn,Present,6,6,563,小終点,5.10.4
 Saint or Sinner,crayvxn,Future,8+,8.8,906,小終点,5.10.4
+Saint or Sinner,crayvxn,Future,10,10.4,1124,↑零下↑,6.13.0
 Hailstone,Kazki Misora,Past,3,3.5,534,raycast,5.10.4
 Hailstone,Kazki Misora,Present,7,7,651,raycast,5.10.4
 Hailstone,Kazki Misora,Future,9+,9.7,1002,raycast,5.10.4
@@ -1713,6 +1719,23 @@ Mistempered Malignance,s-don vs nitro (lowiro),Future,?,0.0,944,《WARNING》Arc
 0xe0e1ccull,f→n,Future,?,0.0,1530,《WARNING》Arcaea Charting Teamvs -chromaesthesia-,4.4.2
 HIVEMIND INTERLINKED,かたぎり,Future,?,0.0,1445,《WARNING》Arcaea Cognition Team-assimilated-,5.5.6
 Live Faster Die Younger,Dustvoxx,Future,?,0.0,1263,"《WARNING》Arcaea Charting Team""worldly wayfarers""",6.3.3
+Desertrealm,Masahiro "Godspeed" Aoki,Past,4,4.5,843,karat-weathered-,6.13.0
+Desertrealm,Masahiro "Godspeed" Aoki,Present,8,8.5,1000,karat-weathered-,6.13.0
+Desertrealm,Masahiro "Godspeed" Aoki,Future,10,10.6,1460,karat-weathered-,6.13.0
+Cryogenic, Camellia ft. Petra Gurin,Past,5,5.0,510,raycast /connected/,6.13.0
+Cryogenic, Camellia ft. Petra Gurin,Present,7,7.5,680,raycast /connected/,6.13.0
+Cryogenic, Camellia ft. Petra Gurin,Future,9,9.2,831,raycast /connected/,6.13.0
+Cryogenic, Camellia ft. Petra Gurin,Eternal,10,10.1,1014,raycast /connected/,6.13.0
+GOODRAGE,EBIMAYO,Past,4,4.5,576,Interator,6.13.0
+GOODRAGE,EBIMAYO,Present,7+,7.8,702,Interator,6.13.0
+GOODRAGE,EBIMAYO,Future,9,9.3,834,Interator,6.13.0
+GOODRAGE,EBIMAYO,Eternal,10,10.2,1035,NORANEKO,6.13.0
+Vallista,Sakuzyo,Past,4,4.5,548,sidewaves,6.13.0
+Vallista,Sakuzyo,Present,7+,7.8,681,sidewaves,6.13.0
+Vallista,Sakuzyo,Future,9+,9.7,869,sidewaves,6.13.0
+3rd Avenue,Sound Souler,Past,3,3.0,529,Souplex,6.13.0
+3rd Avenue,Sound Souler,Present,8,8.1,761,Souplex,6.13.0
+3rd Avenue,Sound Souler,Future,9,9.2,748,New Dimensions,6.13.0
 Cryogenic, Camellia ft. Petra Gurin,MINIMAL,2,2.0,373,,In Falsus Demo
 Cryogenic, Camellia ft. Petra Gurin,EVOLVED,5,5.0,474,,In Falsus Demo
 Cryogenic, Camellia ft. Petra Gurin,ULTIMATE,9,9.0,980,,In Falsus Demo
