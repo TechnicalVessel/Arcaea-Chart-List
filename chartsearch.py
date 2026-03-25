@@ -241,7 +241,7 @@ class ArcaeaChartFilter:
                 mod=(total_score-9800000)/300000
             scorestring=f"{total_score:,}"
             playrating=round(max(float(row['CC'])+mod, 0.0), 2)
-            return "Score: "+scorestring+" | Pure: "+str(purecount)+" | Lost: "+str(current_lost)+" (Max notes: "+str(notecount)+") | Potential Rating: "+str(playrating)
+            return "Score: "+scorestring+" | Pure: "+str(purecount)+" | Lost: "+str(current_lost)+" (Max notes: "+str(notecount)+") | Potential Rating: "+str(playrating) +"(+"+str(round(playrating/40, 2))+")"
         
         print("\n" + "="*80)
         print(f"Song: {row['Song']} | Difficulty: {row['Difficulty']} | Notes: {notecount}")
