@@ -206,10 +206,16 @@ class ArcaeaChartFilter:
         if exact:
             temp = self.ogcharts[self.ogcharts['Song'].isin(song)]
         else:
-            pattern = '|'.join(song)
-            temp = self.ogcharts[
-                self.ogcharts['Song'].str.contains(pattern, case=False, na=False)
-            ]
+            if isinstance(song, list):
+                temp = self.ogcharts[self.ogcharts['Song'].str.contains(song[0], case=False, na=False)]
+            else:
+                temp = self.ogcharts[self.ogcharts['Song'].str.contains(song, case=False, na=False)]
+        if temp.empty:
+            print("empty")
+            if isinstance(song, list):
+                temp = self.ogcharts[self.ogcharts['Alias'].str.contains(song[0], case=False, na=False)]
+            else:
+                temp = self.ogcharts[self.ogcharts['Alias'].str.contains(song, case=False, na=False)]
         if isinstance(difficulty, str):
             difficulty = [difficulty]
         temp = temp[temp['Difficulty'].isin(difficulty)]
