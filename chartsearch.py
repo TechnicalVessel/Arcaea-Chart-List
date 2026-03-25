@@ -288,7 +288,7 @@ class ArcaeaChartFilter:
                 time.sleep(0.01)
                 
         except KeyboardInterrupt:
-            print("\n\nInterrupted by user")
+            print("\n\nQuitting score calculator...")
         
         total_score = int(purecount * purescore)
         return {
