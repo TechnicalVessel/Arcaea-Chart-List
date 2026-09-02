@@ -5,23 +5,16 @@ I will try my best to keep the list updated as updates come and chart constants 
 
 # This project requires pandas and keyboard
 pandas is basically what makes everything possible :shrug:
-keyboard is used for the scoring system
+keyboard is used for user input
 
 # Future(heh) plans:
 [x] Add Basic Searching Program with pandas
-> That was not basic '-_-
-
-Basically I made a class with the original list and a filtered list, and used typing and pandas to take specific charts based on specific criteria (Chart Constant, Name, etc.) and add that to the filtered list.
 <br>
 <br>
-
 [x] Scoring Predictions (figure out your score based on miss, and pure)
-
 <br>
 <br>
-
 [x] Play Rating Calculator
-
 <br>
 <br>
 [ ] Import scores (manual b50 or add specific charts)

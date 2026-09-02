@@ -1,3 +1,4 @@
 *.ui
 __pycache__/
 .*/
+Tester.py
