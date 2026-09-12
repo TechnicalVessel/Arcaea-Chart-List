@@ -227,7 +227,7 @@ class ArcaeaChartFilter:
         notecount = int(row['Notes'])
         purescore = 10000000 / notecount
         purecount = 0
-        playrating=0.00
+        playrating=0.000
         mod=None
         def display_score():
             total_score = int(purecount * purescore)
@@ -240,12 +240,12 @@ class ArcaeaChartFilter:
             else:
                 mod=(total_score-9800000)/300000
             scorestring=f"{total_score:,}"
-            playrating=round(max(float(row['CC'])+mod, 0.0), 2)
-            return "Score: "+scorestring+" | Pure: "+str(purecount)+" | Lost: "+str(current_lost)+" (Max notes: "+str(notecount)+") | Potential Rating: "+str(playrating) +"(+"+str(round(playrating/40, 2))+")"
+            playrating=round(max(float(row['CC'])+mod+0.2, 0.0), 3)
+            return "Score: "+scorestring+" | Pure: "+str(purecount)+" | Lost: "+str(current_lost)+" (Max notes: "+str(notecount)+") | Potential Rating: "+str(playrating) +"(+"+str(round(playrating/40, 3))+")"
         
         print("\n" + "="*80)
         print(f"Song: {row['Song']} | Difficulty: {row['Difficulty']} | Notes: {notecount}")
-        print("="*80)
+        print("========================================")
         print("Controls:")
         print("  Right Arrow        : +1 Pure")
         print("  Left Arrow         : -1 Pure")
@@ -254,7 +254,7 @@ class ArcaeaChartFilter:
         print("  Shift+Right        : Max Pure")
         print("  Shift+Left         : 0 Pure")
         print("  Q                  : Quit")
-        print("="*80 + "\n")
+        print("========================================="*80 + "\n")
         
         try:
             while True:
