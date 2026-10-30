@@ -244,7 +244,7 @@ class ArcaeaChartFilter:
             return "Score: "+scorestring+" | Pure: "+str(purecount)+" | Lost: "+str(current_lost)+" (Max notes: "+str(notecount)+") | Potential Rating: "+str(playrating) +"(+"+str(round(playrating/40, 3))+")"
         
         print("\n" + "="*80)
-        print(f"Song: {row['Song']} | Difficulty: {row['Difficulty']} | Notes: {notecount}")
+        print(f"Song: {row['Song']} | Difficulty: {row['Difficulty']} | Notes: {notecount} | Assuming Clear (+0.2 PTT)")
         print("========================================")
         print("Controls:")
         print("  Right Arrow        : +1 Pure")
