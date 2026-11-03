@@ -1,6 +1,6 @@
 # As of right now, this repo will only contain a csv with every Arcaea chart available. All info is publicly available on the Arcaea Miraheze.
 I will try my best to keep the list updated as updates come and chart constants are verified.
-> Current Version: 7.0.255
+> Current Version: 7.1.0
 
 
 # This project requires pandas and keyboard
